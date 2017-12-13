@@ -236,7 +236,7 @@ public class MainActivity extends AppCompatActivity implements CheckSSIDBroadcas
         mThread = new Thread() {
             @Override
             public void run() {
-                mWifiManager.disconnect();
+//                mWifiManager.disconnect();
                 try
                 {
                     while(!isInterrupted())
